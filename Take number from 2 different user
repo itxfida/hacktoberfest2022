@@ -1,0 +1,23 @@
+#include <stdio.h> 
+
+  
+
+int main() 
+
+{ 
+
+    int P1,P2; 
+
+    printf("ENTER YOUR WHATSAPP NUMBER"); 
+
+    scanf("%c",&P1); 
+
+    printf("ENTER YOUR WHATSAPP NUMBER"); 
+
+    scanf("%c",&P2); 
+
+    printf("YOUR WHATSAPP NUMBER IS %d",P1); 
+
+    return 0; 
+
+} 
