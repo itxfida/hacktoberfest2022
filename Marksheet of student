@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int English,Hindi,Maths,Science,SST;
+    printf("Enter the marks obtained in English : ");
+    scanf("%d",&English);
+    printf("Enter the marks obtained in Hindi : ");
+    scanf("%d",&Hindi);
+    printf("Enter the marks obtained in Maths : ");
+    scanf("%d",&Maths);
+    printf("Enter the marks obtained in Science : ");
+    scanf("%d",&Science);
+    printf("Enter the marks obtained in SST : ");
+    scanf("%d",&SST);
+    int aggregate;
+    aggregate = English + Hindi + Maths + Science + SST ;
+    printf("Aggregate marks : %d \n",aggregate);
+    float percentage;
+    percentage = aggregate * 0.2;
+    printf("Precent obtained %f",percentage);
+    return 0;
+}
