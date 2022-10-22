@@ -1,0 +1,62 @@
+#include<stdio.h> 
+
+int main () 
+
+{ 
+
+    int w,x,y,z; 
+
+    printf("Enter Your Number: "); 
+
+    scanf("%d",&w); 
+
+    printf("Enter Your Number: "); 
+
+    scanf("%d",&x); 
+
+    printf("Enter Your Number: "); 
+
+    scanf("%d",&y); 
+
+    printf("Enter Your Number: "); 
+
+    scanf("%d",&z); 
+
+     
+
+    if(x>w && x>y && x>z) 
+
+    { 
+
+    printf("x is greater"); 
+
+    } 
+
+    else if(y>x && y>w && y>z) 
+
+    { 
+
+    printf("y is greater");     
+
+    } 
+
+    else if(z>w && z>x && z>y) 
+
+    { 
+
+    printf("z is greater"); 
+
+    } 
+
+    else 
+
+    { 
+
+    printf("w is greater");     
+
+    } 
+
+    return 0; 
+
+} 
+
