@@ -1,0 +1,41 @@
+ 
+
+#include <stdio.h> 
+
+  
+
+int main() { 
+
+  int VEHICLE = 2503; 
+
+   
+
+  switch ( VEHICLE ) { 
+
+   
+
+  case 2501: 
+
+  printf("CAR OF CAR XYZ"); 
+
+  break; 
+
+  case 2502: 
+
+  printf("CAR OF MR. INDIAN HACKER"); 
+
+  break; 
+
+  case 2503: 
+
+  printf("CAR OF EXPERIMENT TV"); 
+
+  break; 
+
+  } 
+
+     
+
+  return 0; 
+
+} 
