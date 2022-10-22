@@ -1,0 +1,45 @@
+ 
+
+#include <stdio.h> 
+
+  
+
+int main() 
+
+{ 
+
+   int x; 
+
+   printf("ENTER THE NUMBER"); 
+
+   scanf("%d",&x); 
+
+    
+
+  
+
+   switch (x) { 
+
+    case 1: 
+
+      printf("Milan"); 
+
+      break; 
+
+    case 2: 
+
+      printf("Jalaj"); 
+
+      break; 
+
+    case 3: 
+
+      printf("Raj"); 
+
+      break; 
+
+   } 
+
+      return 0; 
+
+  }      
