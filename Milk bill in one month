@@ -1,0 +1,69 @@
+ 
+
+#include <stdio.h> 
+
+int main()  
+
+{ 
+
+    float milk; 
+
+    float c = 0; 
+
+    printf ("Enter the amount of milk consumed in one month"); 
+
+    scanf("%f",&milk); 
+
+     
+
+     if(milk=15l) 
+
+    { 
+
+        printf ("AMOUNT IS: ");  
+
+        c+=(milk*20)*(30); 
+
+        printf("%f",c); 
+
+    } 
+
+     else if(milk=30l) 
+
+   { 
+
+       printf("AMOUNT IS: "); 
+
+       c+=(milk*40)*(30); 
+
+       printf("%f",c); 
+
+   } 
+
+   else if(milk=45l) 
+
+   { 
+
+       printf("AMOUNT IS: "); 
+
+       c+=(milk*80)*(30); 
+
+       printf("%f",c); 
+
+   } 
+
+   else(milk=60l); 
+
+   { 
+
+       printf("AMOUNT IS: "); 
+
+       c+=(milk*100)*(30); 
+
+       printf("%f",c); 
+
+   } 
+
+   return 0; 
+
+} 
