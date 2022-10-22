@@ -1,0 +1,43 @@
+#include <stdio.h> 
+
+  
+
+int main()  
+
+{ 
+
+  int YEAR = 2006; 
+
+   
+
+  switch (YEAR) { 
+
+    case 2000: 
+
+      printf("MILAN"); 
+
+      break; 
+
+    case 2004: 
+
+      printf("RAJ"); 
+
+      break; 
+
+    case 2006: 
+
+      printf("JALAJ"); 
+
+      break; 
+
+    case 2008: 
+
+      printf("SHRAVAN"); 
+
+      break; 
+
+  } 
+
+  return 0; 
+
+} 
