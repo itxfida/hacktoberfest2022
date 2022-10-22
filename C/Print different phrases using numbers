@@ -1,0 +1,19 @@
+#include <stdio.h> 
+
+  
+
+int main()  
+
+{ 
+
+  int x = 20; 
+
+  int y = 518; 
+
+  if ( x > y)printf("Hello World!"); 
+
+  if ( x < y)printf("YO! YO! HONEY SINGH\n"); 
+
+return 0; 
+
+} 
