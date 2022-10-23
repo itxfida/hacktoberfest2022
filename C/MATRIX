@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+int c,r,i,j;    
+int a[20][20],b[20][20],resultmatrix[20][20];
+//putting values of first matrix
+printf("enter no. of rows and column of firstmatrix");
+  scanf("%d%d",&i,&j);
+ printf("enter elements of firstmatrix\n");
+for(r=0;r<i;r++)
+{
+  for(c=0;c<j;c++)
+  {
+   printf("a[%d][%d]: ",r,c);
+  scanf("%d",&a[r][c]);
+  }
+  }
+//puting values of second matrix
+printf("enter no. of rows and column of secondmatrix");
+  scanf("%d%d",&i,&j);
+printf("enter elements of firstmatrix\n");
+for(r=0;r<i;r++)
+{
+  for(c=0;c<j;c++)
+   {printf("b[%d][%d]: ",r,c);
+  scanf("%d",&b[r][c]);}
+ }
+//adding
+
+for(int r=0;r<i;r++){
+for(int c=0;c<j;c++){
+resultmatrix[r][c]=a[r][c]+b[r][c];
+printf("your resultingmatrix is resultmatrix: [%d][%d] \t",resultmatrix[r][c]);}}
+return 0;
+}
