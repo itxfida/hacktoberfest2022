@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{   
+    printf("hello world");
+    int bb[4] = {70,80,90,40};
+    int a = bb;
+    printf("❤️❤️Enter the number between 1 to 3❤️❤️ : ");
+    scanf("%d",&a);
+    printf("%d", bb[a]);
+    return 0;
+}
