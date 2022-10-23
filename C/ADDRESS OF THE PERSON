@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+ struct add
+    {
+        char state[30];
+        int house_no;
+        char street[100];
+        int pin;
+        char city [30];
+    }a1;
+    
+int main()
+{
+    printf("Enter your house number : \n");
+    scanf("%d",&a1.house_no);
+    printf("Enter the name of the street : \n");
+    scanf("%s",&a1.street[100]);
+    printf("Enter name of the city : \n");
+    scanf("%s",&a1.city[30]);
+    printf("Ente the pin number : \n");
+    scanf("%d",&a1.pin);
+    printf("Enter the name of the state : \n");
+    scanf("%s",&a1.state[30]);
+    printf("Your address is : %d \n %s \n %s \n %d \n",a1.house_no, a1.state, a1.city, a1.pin);
+    printf("your state is: %s", a1.street);
+    return 0;
+}
