@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int A[6]={25,250,2500,25000,250000};
+    int a = A;
+  
+    /*A[1] = 250000;
+    A[2] = 25000;
+    A[3] = 2500;
+    A[4] = 250;
+    A[0] = 25;*/
+  
+   printf("Enter number b/w 1 to 5 : ");
+   scanf("%d",&a);
+   printf("%d", A[a]);
+}
+  
