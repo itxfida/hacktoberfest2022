@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int celsius,farenheit,kelvin;
+    printf("Enter the temp. in farenheit : ");
+    scanf("%d",&farenheit);
+    (celsius = (farenheit - 32)*(0.56));
+    printf("Temp. in degree celsius is %d \n",celsius);
+    (kelvin = 273 + celsius);
+    printf("Temp in kelvin is : %d \n",kelvin);
+    
+    return 0;
+}
+
+
