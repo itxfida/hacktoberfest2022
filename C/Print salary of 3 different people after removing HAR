@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+    int S1, S2, S3;
+    printf("Number of the person : 3\n");
+    printf("S1 : 10000\n");
+    printf("HAR of S1 = 2000\n");
+    printf("DA of S1 = 8000\n");
+    
+    printf("S2 : 20000\n");
+    printf("HAR of S2 = 4000\n");
+    printf("DA of S2 = 16000\n");
+    
+    printf("S3 : 25000\n");
+    printf("HAR of S3 = 5000\n");
+    printf("DA of S3 = 20000\n");
+}
